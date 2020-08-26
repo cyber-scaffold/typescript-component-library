@@ -2,6 +2,7 @@ const path = require("path");
 
 module.exports = {
   source: "example",
+  exclude: [/node_modules/, /dist/],
   resolve: {
     alias: {
       "@": path.relative(__dirname, "./example"),
