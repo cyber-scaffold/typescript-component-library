@@ -1,0 +1,30 @@
+{
+  "name": "typescript-component-library",
+  "version": "1.0.0",
+  "description": "基于typescript编写的组件库",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "cyber-component dev && cyber-spa dev",
+    "build": "cyber-component build"
+  },
+  "keywords": [
+    "ui",
+    "react",
+    "typescript",
+    "framework",
+    "component",
+    "components"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.9.46",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@cyber-tools/component-build-tools": "file:../../cyber-tools/component-build-tools",
+    "@cyber-tools/spa-cli": "^1.0.9",
+    "typescript": "^3.9.7"
+  }
+}
