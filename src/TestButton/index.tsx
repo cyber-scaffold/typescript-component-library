@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 import style from "./index.less";
 
+
 class TestComponent extends React.Component<any, any> {
   constructor(props: any) {
     super(props);

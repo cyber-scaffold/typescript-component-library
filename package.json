@@ -19,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/react": "^16.9.46",
+    "execa": "^4.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -26,6 +27,7 @@
     "@cyber-tools/component-build-tools": "file:../../cyber-tools/component-build-tools",
     "@cyber-tools/spa-cli": "file:../../cyber-tools/spa-cli",
     "concurrently": "^5.3.0",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "watch": "^1.0.2"
   }
 }
