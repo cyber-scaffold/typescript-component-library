@@ -7,8 +7,8 @@ const watchPath = path.resolve(__dirname, "../src/");
 
 async function developmentTask() {
   try {
-    await execa("cyber-component", ["build"], { stdout: "inherit" });
-    await execa("cyber-spa", ["dev"], { stdout: "inherit" });
+    await execa("npx", ["cyber-component", "build"], { stdout: "inherit" });
+    await execa("npx", ["cyber-spa", "dev"], { stdout: "inherit" });
   } catch (error) {
     throw error;
   } finally {
