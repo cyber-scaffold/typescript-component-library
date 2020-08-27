@@ -1,8 +1,6 @@
-const path = require("path");
 const concurrently = require("concurrently");
 
-
-(async function developmentTask() {
+(async function development() {
   try {
     await concurrently([
       { name: "转换组件代码", command: "npx cyber-component dev" },
