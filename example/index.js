@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import TestButton from "../dist/TestButton/index.js";
+import TestButton from "@dist/TestButton";
 
 ReactDOM.render((
   <TestButton>
