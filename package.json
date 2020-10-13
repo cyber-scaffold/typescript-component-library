@@ -23,8 +23,8 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@cyber-tools/component-build-tools": "file:../../cyber-tools/component-build-tools",
-    "@cyber-tools/spa-build-tools": "file:../../cyber-tools/spa-build-tools",
+    "@cyber-tools/component-build-tools": "file:../../cyber-tools/packages/build-tools/component-build-tools",
+    "@cyber-tools/spa-build-tools": "file:../../cyber-tools/packages/build-tools/spa-build-tools",
     "concurrently": "^5.3.0",
     "typescript": "^3.9.7"
   }
